@@ -1,0 +1,51 @@
+package com.wipro;
+
+import java.util.Scanner;
+
+public class DefArrays {
+
+	public static int[] defArr() {
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter Size of the array: ");
+		int[] arr = new int[sc.nextInt()];
+
+		System.out.println("Enter array values:");
+		for (int i = 0; i < arr.length; i++)
+			arr[i] = sc.nextInt();
+
+		for (int e : arr)
+			System.out.print(e + " ");
+
+		sc.close();
+		
+		return arr;
+	}
+
+	public static int[][] def2dArray() {
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter 2d array dimensions: ");
+		int n = sc.nextInt();
+		int m = sc.nextInt();
+		int[][] arr2d = new int[n][m];
+
+		System.out.println("Enter array elemets (row by row)");
+
+		for (int i = 0; i < n; i++)
+			for (int j = 0; j < m; j++)
+				arr2d[i][j] = sc.nextInt();
+
+		for (int[] row : arr2d)
+			for (int e : row)
+				System.out.print(e + " ");
+
+		sc.close();
+		
+		return arr2d;
+	}
+	
+	public static int highestElement(int[] arr) {
+		Arrays.
+	}
+}

@@ -1,0 +1,18 @@
+package com.wipro;
+
+import com.wipro.GradeAllocation;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+	try {
+		String n = GradeAllocation.gradeCheck(5);
+	} catch (Exception e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+		
+	}
+
+}
